@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chúc Mừng Tốt Nghiệp</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Cy Grotesk Key chính thức từ Adobe Fonts / Google Fonts chưa có full, dùng bản gần nhất + fallback -->
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="stars"></div>
+
+    <main class="container">
+        <!-- HAPPY GRADUATION cố định -->
+        <h1 class="title">HAPPY<br>GRADUATION</h1>
+
+        <!-- Hình người nhận -->
+        <img id="person-photo" class="photo" src="" alt="Ảnh tốt nghiệp">
+
+        <!-- Thân gửi + tên -->
+        <div class="greeting-bubble">
+            THÂN GỬI <span id="person-name">...</span>
+        </div>
+
+        <!-- Dải băng trang trí
+        <div class="ribbon ribbon1">HAPPY GRADUATION • HAPPY GRADUATION</div>
+        <div class="ribbon ribbon2">HAPPY GRADUATION • HAPPY GRADUATION</div>
+        <div class="ribbon ribbon3">HAPPY GRADUATION • HAPPY GRADUATION</div> -->
+
+        <!-- Ribbon xanh dương – chữ chạy từ trái sang phải -->
+        <!-- Ribbon xanh dương cố định – chữ chạy từ trái sang phải -->
+<!-- Ribbon xanh – chạy trái → phải -->
+<div class="fixed-ribbon blue">
+  <div class="marquee-container">
+    <div class="marquee-text">HAPPY GRADUATION • HAPPY GRADUATION • HAPPY GRADUATION • HAPPY GRADUATION • HAPPY GRADUATION •</div>
+    <div class="marquee-text">HAPPY GRADUATION • HAPPY GRADUATION • HAPPY GRADUATION • HAPPY GRADUATION • HAPPY GRADUATION •</div>
+  </div>
+</div>
+
+<!-- Ribbon vàng – chạy phải → trái -->
+<div class="fixed-ribbon yellow">
+  <div class="marquee-container reverse">
+    <div class="marquee-text">HAPPY GRADUATION • HAPPY GRADUATION • HAPPY GRADUATION • HAPPY GRADUATION • HAPPY GRADUATION •</div>
+    <div class="marquee-text">HAPPY GRADUATION • HAPPY GRADUATION • HAPPY GRADUATION • HAPPY GRADUATION • HAPPY GRADUATION •</div>
+  </div>
+</div>
+
+        <!-- Nút Lego tutorial -->
+        <button id="lego-btn" class="lego-button">
+            Lego tutorial
+        </button>
+    </main>
+
+    <!-- Overlay xem PDF -->
+    <div id="pdf-overlay" class="overlay hidden">
+        <iframe id="pdf-frame" src="" frameborder="0"></iframe>
+        <button class="close-btn">✕</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

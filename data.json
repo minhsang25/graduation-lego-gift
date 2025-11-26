@@ -1,0 +1,16 @@
+{
+  "people": [
+    {
+      "id": "1",
+      "name": "chị Hải Yến",
+      "imagePath": "assets/images/haiyen.jpg",
+      "pdfPath": "assets/pdfs/lego-minhthu.pdf"
+    },
+    {
+      "id": "2",
+      "name": "Trần Văn Hoàng",
+      "imagePath": "assets/images/hoang.jpg",
+      "pdfPath": "assets/pdfs/lego-hoang.pdf"
+    }
+  ]
+}
