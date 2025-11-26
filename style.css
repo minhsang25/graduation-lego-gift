@@ -61,7 +61,7 @@ body {
 
 /* BONG BÓNG "THÂN GỬI ..." */
 .greeting-bubble {
-    background: #ff3b30;
+    background: #ff7300;
     color: white;
     font-size: 5.8vw;
     font-weight: 800;
@@ -81,8 +81,8 @@ body {
 /* ==================== 2 RIBBON CHỮ CHẠY VÔ TẬN LIỀN MẠCH ==================== */
 .fixed-ribbon {
     position: fixed;
-    left: -20%;
-    width: 140%;                    /* rộng hơn để chữ chạy mượt */
+    left: -50%;
+    width: 200%;                    /* rộng hơn để chữ chạy mượt */
     height: 70px;
     overflow: hidden;
     z-index: 5;
@@ -94,7 +94,7 @@ body {
 
 .marquee-container {
     position: absolute;
-    width: 200%;
+    width: 100%;
     height: 100%;
     display: flex;
     animation: scroll-left 26s linear infinite -13s;
@@ -111,7 +111,7 @@ body {
     letter-spacing: 6px;
     padding-left: 120px;
 }
-@media (min-width: 768px) { .marquee-text { font-size: 38px; } }
+@media (min-width: 768px) { .marquee-text { font-size: 25px; } }
 
 @keyframes scroll-left  { 0% { transform: translateX(0); }     100% { transform: translateX(-50%); } }
 @keyframes scroll-right { 0% { transform: translateX(-50%); } 100% { transform: translateX(0); } }
@@ -150,10 +150,9 @@ body {
 .overlay.hidden { display: none; }
 
 #pdf-frame {
-    width: 94%;
-    height: 94%;
+    width: 100%;
+    height: 100%;
     border: none;
-    border-radius: 20px;
 }
 
 .close-btn {
