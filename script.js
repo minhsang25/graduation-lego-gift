@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
     const urlParams = new URLSearchParams(window.location.search);
-    const id = urlParams.get('id') || '1';
+    const id = urlParams.get('id') || '123451211';
 
     fetch('data.json')
         .then(res => res.json())

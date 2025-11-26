@@ -1,16 +1,28 @@
 {
   "people": [
     {
-      "id": "1",
+      "id": "123451211",
       "name": "chị Hải Yến",
       "imagePath": "assets/images/haiyen.png",
-      "pdfPath": "assets/pdfs/lego-minhthu.pdf"
+      "pdfPath": "assets/pdfs/mz166.pdf"
     },
     {
-      "id": "2",
-      "name": "Trần Văn Hoàng",
-      "imagePath": "assets/images/hoang.jpg",
-      "pdfPath": "assets/pdfs/lego-hoang.pdf"
+      "id": "123451212",
+      "name": "chị Yến Nhi",
+      "imagePath": "assets/images/yennhi.jpg",
+      "pdfPath": "assets/pdfs/mz164.pdf"
+    },
+    {
+      "id": "123451213",
+      "name": "chị Duy Đông",
+      "imagePath": "assets/images/duydong.jpg",
+      "pdfPath": "assets/pdfs/mz176.pdf"
+    },
+    {
+      "id": "123451214",
+      "name": "chị Tuệ Mẫn",
+      "imagePath": "assets/images/tueman.jpg",
+      "pdfPath": "assets/pdfs/mz164.pdf"
     }
   ]
 }
