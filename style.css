@@ -84,7 +84,7 @@ body {
 .greeting-bubble {
     position:fixed;
     left:8%; bottom:38%;
-    background:#ff3b30;
+    background:#ff7300;
     color:#fff;
     font-size:20px;
     font-weight:800;
@@ -203,20 +203,20 @@ body {
 }
 
 /* ================= PDF OVERLAY ================= */
-.overlay{position:fixed;inset:0;background:rgba(0,0,0,.96);display:flex;justify-content:center;align-items:center;z-index:999}
+.overlay{position:fixed;inset:0;background:rgba(0,0,0,.96);display:flex;justify-content:center;align-items:center;z-index:2147483647}
 .overlay.hidden{display:none}
-#pdf-frame{width:96%;height:96%;border:none;border-radius:20px}
-.close-btn{position:absolute;top:20px;right:20px;background:#fff;color:#000;width:60px;height:60px;border-radius:50%;font-size:36px;font-weight:bold;cursor:pointer;display:flex;align-items:center;justify-content:center}
+#pdf-frame{width:96%;height:96%;border:none;border-radius:20px; z-index: 2147483647;}
+.close-btn{position:absolute;top:20px;right:20px;background:#fff;color:#000;width:60px;height:60px;border-radius:50%;font-size:36px;font-weight:bold;cursor:pointer;display:flex;align-items:center;justify-content:center; z-index: 2147483648;}
 
 @media(max-width:480px){
 
     /* Title full width, sát 2 bên nhưng vẫn đẹp */
     .title {
-        font-size: 19vw;
+        font-size: 15vw;
         top: 24vw;
         line-height: 0.78;
         width: 90vw;
-        left: 50%;
+        /* left: 50%; */
         transform: translateX(-50%);
         letter-spacing: -1.5vw;
         white-space: normal; /* cho xuống dòng đẹp */
