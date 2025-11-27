@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', () => {
             const overlay = document.getElementById('pdf-overlay');
             const frame = document.getElementById('pdf-frame');
             const closeBtn = document.querySelector('.close-btn');
-
+            
             btn.onclick = () => {
                 frame.src = person.pdfPath;
                 overlay.classList.remove('hidden');
