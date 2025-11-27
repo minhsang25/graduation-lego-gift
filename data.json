@@ -9,19 +9,19 @@
     {
       "id": "123451212",
       "name": "chị Yến Nhi",
-      "imagePath": "assets/images/yennhi.jpg",
+      "imagePath": "assets/images/yennhi.png",
       "pdfPath": "assets/pdfs/mz164.pdf"
     },
     {
       "id": "123451213",
       "name": "chị Duy Đông",
-      "imagePath": "assets/images/duydong.jpg",
+      "imagePath": "assets/images/duydong.png",
       "pdfPath": "assets/pdfs/mz176.pdf"
     },
     {
       "id": "123451214",
       "name": "chị Tuệ Mẫn",
-      "imagePath": "assets/images/tueman.jpg",
+      "imagePath": "assets/images/tueman.png",
       "pdfPath": "assets/pdfs/mz164.pdf"
     }
   ]
